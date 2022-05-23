@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #121212;
+}
+
+header {
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+}
+
+#two {
+	font-family: 'Caveat', "cursive";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 128px;
+	background: linear-gradient(180deg, #06f4c4 50%, #6876df 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	padding: 0px !important;
+	margin: 0px;
+}
+
+#one {
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 38px;
+	color: #FFFFFF;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.bot{
+	background: linear-gradient(180deg, #f0af96 10%, rgb(234, 3, 3) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	font-weight: 700;
+}
+
+
+#message{
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	color: white;
+}
+
+/* ****************** Table style ****************** */
+#tab-tic-tac-toe {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	font-size: 4em;
+	font-family: Sans;
+	color: #ffffff;
+	width: 310px;
+	height: 300px;
+	text-align: center;
+	vertical-align: center;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+/*Column style*/
+.first, .fourth {
+	border-collapse: collapse;
+	border-width: 0px 5px 5px 0px;
+	border-image: linear-gradient(rgba(1, 194, 154, 1), rgba(63, 86, 250, 1));
+	border-image-slice: 9;
+	border-style: solid;
+}
+
+.second, .fifth {
+	border-collapse: collapse;
+	border-width: 0px 5px 5px 0px;
+	border-image: linear-gradient(rgba(1, 194, 154, 1), rgba(63, 86, 250, 1));
+	border-image-slice: 9;
+	border-style: solid;
+}
+
+.third, .sixth {
+	border-collapse: collapse;
+	border-width: 0px 0px 5px 0px;
+	border-image: linear-gradient(rgba(1, 194, 154, 1), rgba(63, 86, 250, 1));
+	border-image-slice: 9;
+	border-style: solid;
+}
+
+.seventh, .eighth {
+	border-collapse: collapse;
+	border-width: 0px 5px 0px 0px;
+	border-image: linear-gradient(rgba(1, 194, 154, 1), rgba(63, 86, 250, 1));
+	border-image-slice: 9;
+	border-style: solid;
+	
+}
+
+
+/*Cells*/
+#tab-tic-tac-toe td {
+	cursor: pointer;
+	height: 95px;
+	width: 95px;
+}
+
+/********* Restart Button **********/
+#bnt-restart {
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 16px 32px;
+	border-width: 4px 4px 4px 4px;
+	border-image: linear-gradient(180deg, #67FFE0 0%, #3F56FA 100%, #7E8DFB 100%);
+	border-style: solid;
+	border-image-slice: 10;
+	font-family: 'EB Garamond';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 47px;
+	background: linear-gradient(180deg, #43FFD8 0%, #3A52FF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	cursor: pointer;
+}
+
+#bnt-restart:hover {
+	border-width: 4px 4px 4px 4px;
+	border-image: linear-gradient(180deg, #43FFD8 0%, #3A52FF 100%);
+	border-style: solid;
+	border-image-slice: 10;
+}
+
+#bnt-restart:active {
+	border-width: 4px 4px 4px 4px;
+	border-image: linear-gradient(180deg, #43FFD8 0%, #3A52FF 100%);
+	border-style: solid;
+	border-image-slice: 10;
+}

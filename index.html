@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="index.css" />
+	<script type="text/javascript" src="minimax.js"></script>
+	<title>XOXO | HomePage</title>
+</head>
+
+<body>
+	<header>
+		<p id="two">XOXO</p>
+		<p id="one">Enjoy The Game with <span class="bot">AI Bot</span></p>
+		<p id="message"></p>
+	</header>
+	<table id="tab-tic-tac-toe" cellspacing="0">
+		<tr id="row1">
+			<td class="first" id="00" onclick="clickedCell(this)"></td>
+			<td class="second" id="01" onclick="clickedCell(this)"></td>
+			<td class="third" id="02" onclick="clickedCell(this)"></td>
+		</tr>
+		<tr>
+			<td class="fourth" id="10" onclick="clickedCell(this)"></td>
+			<td class="fifth" id="11" onclick="clickedCell(this)"></td>
+			<td class="sixth" id="12" onclick="clickedCell(this)"></td>
+		</tr>
+		<tr>
+			<td class="seventh" id="20" onclick="clickedCell(this)"></td>
+			<td class="eighth" id="21" onclick="clickedCell(this)"></td>
+			<td class="ninth" id="22" onclick="clickedCell(this)"></td>
+		</tr>
+	</table>
+	<input type="button" value="Start the Game" id="bnt-restart" onclick="restartBnt(this)" />
+</body>
+
+</html>
